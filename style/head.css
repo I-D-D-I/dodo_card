@@ -1,0 +1,111 @@
+.head__card {
+    margin-top: 100px;
+    padding: 40px;
+    background-color: #FFFFFF;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.head__number {
+    margin-bottom: 5px;
+    color: #73798C;
+    font-weight: 400;
+}
+.number__otstup {
+    display: none;
+}
+.head__info {
+    padding-bottom: 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head__text {
+    font-size: 36px;
+    line-height: 49px;
+}
+.head__border {
+    height: 4px;
+    background-color: #E2E2E9;
+    max-width: 700px;
+    border-radius: 2px;
+    margin-bottom: 9px;
+}
+.head__subtext {
+    margin-bottom: 70px;
+}
+.head__adress {
+    font-weight: 400;
+}
+.head__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.head__but {
+    display: block;
+    text-align: center;
+    border: none;
+    padding: 13px 19px 13px 20px;
+    color: #D15700;
+    background-color: #FFF0E6;
+    border-radius: 100px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.head__but:hover {
+    background-color: #f9e2d2;
+    transition: 0.5s;
+}
+.head__but_orange {
+    color: #FFFFFF;
+    background-color: #F96900;
+    transition: 0.5s;
+}
+.head__but_orange:hover {
+    background-color: #db5c01;
+    transition: 0.5s;
+}
+
+@media (max-width: 600px) {
+    .head__card {
+        max-width: 320px;
+        height: 377px;
+        padding: 16px;
+    }
+    .head__number {
+        margin-bottom: 4px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .number__otstup {
+        display: inline;
+    }
+    .head__info {
+        border-bottom: none;
+        padding-bottom: 12px;
+    }
+    .head__text {
+        font-size: 24px;
+        line-height: 33px;
+        margin-bottom: 12px;
+    }
+    .head__text_min {
+        display: none;
+    }
+    .head__border {
+        display: none;
+    }
+    .head__subtext {
+        padding: 18px 21px 18px 20px;
+        background-color: #F3F3F7;
+        border-radius: 10px;
+    }
+    .head__adress {
+        display: block;    
+    }
+    .head__buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px 0;
+    }
+}

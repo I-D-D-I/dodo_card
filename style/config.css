@@ -8,39 +8,16 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    color: #48555B;
-    font-size: 13px;
-    line-height: 23px;
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-weight: 400;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-ul, li {
-    list-style-type: none;
-}
-
-img {
-    display: block;
-}
-
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
+    max-width: 900px;
+    margin: 100px auto;
 }
 
-.title {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    color: #48555B;
-    display: swap;
+body {
+    background-color: #E5E5E5;
+    color: #000000;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
-
-
